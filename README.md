@@ -3,5 +3,5 @@
 Test bed template for Eleventy with WebC.
 
 ```
-npx degit darth_mall/11ty-webc-test-bed <project-name>
+npx degit darthmall/11ty-webc-test-bed <project-name>
 ```
