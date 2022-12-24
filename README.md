@@ -1,7 +1,7 @@
-# Eleventy + WebC Starter
+# Eleventy + WebC Test Bed
 
-Quick start for projects using Eleventy with WebC.
+Test bed template for Eleventy with WebC.
 
 ```
-npx degit darth_mall/11ty-webc-starter <project-name>
+npx degit darth_mall/11ty-webc-test-bed <project-name>
 ```
