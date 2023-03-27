@@ -1,8 +1,6 @@
 <footer>
-	<script webc:type="render" webc:is="p">
-		function () {
-			const now = new Date();
-			return `&copy; ${now.getFullYear()} Lrrr, ruler of the planet Omicron Persei 8.`;
-		}
+	<script webc:type="js">
+		const now = new Date();
+		`<p>&copy; ${now.getFullYear()} Lrrr, ruler of the planet Omicron Persei 8.</p>`;
 	</script>
 </footer>
