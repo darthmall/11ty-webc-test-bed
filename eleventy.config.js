@@ -1,13 +1,15 @@
 const pluginWebC = require("@11ty/eleventy-plugin-webc");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginWebC, {
-		components: "src/includes/**/*.webc",
+		components: "_components/**/*.webc",
 	});
 
 	return {
 		dir: {
-			input: "src/",
+			input: "content/",
+			includes: "../_includes",
+			data: "../_data",
 		},
 	};
 };
